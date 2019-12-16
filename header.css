@@ -1,0 +1,42 @@
+html,body{
+	height: 100%;
+}
+
+/*Global*/
+.container{
+	width: 90%;
+	margin: auto;
+	overflow: hidden;
+	color: white;
+}
+.container h1{
+	font-size: 40px;
+}
+
+header{
+	background: rgba(0,0,0,0.25);
+	
+	font-size: 50px;
+	padding-top: 50px;
+	min-height: 70px;
+}
+header a {
+    color: white;
+    text-decoration: none;
+    font-size: 80px;
+}
+
+
+header #branding{
+	float: left;
+}
+header nav{
+	float: right;
+	margin-top: 35px;
+}
+header a:hover{
+	/*font-weight: bold;*/
+	color: #7d8481;
+	/*text-decoration: underline;*/
+}
+
